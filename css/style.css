@@ -53,13 +53,17 @@ html, body {
     height: 45%;
     width: 100%;
     position: relative;
-    text-align: center;
 }
 
 #logo {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    top: 150px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 272px;
+    bottom: 30px;
 }
 
 #search_form {
